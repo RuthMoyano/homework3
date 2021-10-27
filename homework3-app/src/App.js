@@ -34,13 +34,13 @@ function App() {
       <center><div id="main">
         <div><button id="remove" type="submit"
           onClick={rmvBtnClicked} >Remove 1 Star</button></div>
-        <div id="counterDiv" class="bold largeText">{counter}</div>
+        <div id="counterSection" class="bold largeText">{counter}</div>
         <div><button id="add" type="submit"
           onClick={addBtnClicked}>Add 1 Star</button></div>
       </div></center>
 
       <center>
-        <div id="starSection">
+        <div id="starsSection">
           {dataArray.map(() => {
             return (
               <div className="starBox">
